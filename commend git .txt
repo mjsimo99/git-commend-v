@@ -47,5 +47,8 @@ un branche : changer la branche courante
 une révision : passer en mode detached HEAD
 
 
+*git-merge : Fusionne deux ou plusieurs historiques de développement ensemble
 
+*git-tag - Créer, répertorier, supprimer ou vérifier un objet de balise signé avec GPG
+*pour supprimer une tag : git tag -d <tag_name>
 
