@@ -8,7 +8,43 @@
 * Pour commiter les modifications indexées : $ git commit    #ou
 							   $ git commit -m "message de commit"
 
-* 
+
+*Afficher la liste des branches
+Dans les interfaces graphiques :
+
+elle apparaît chaque fois qu’elle est nécessaire
+
+(par exemple, dans la boite de dialogue Switch/Checkout... vue précédemment).
+
+En ligne de commande :
+
+$ git branch
+Le nom de la branche courante apparaît précédé d’une étoile.
+
+
+*Créer une nouvelle branche:
+Cette opération consiste à placer, sur un commit existant, le sommet d’une nouvelle branche (qui pourra croître indépendamment des autres).
+
+*Pour créer une nouvelle branche sur le commit courant :
+
+$ git branch <nom_nouvelle_branche>
+Pour créer une nouvelle branche à un autre emplacement :
+
+$ git branch <nom_nouvelle_branche> <revision>
+Ces commandes ne changent pas la branche courante. Pour créer une nouvelle branche et en faire la branche courante, utilisez plutôt :
+
+$ git checkout -b <nom_nouvelle_branche>    # ou
+$ git checkout -b <nom_nouvelle_branche> <revision>
+
+*Changer de branche
+Cette opération consiste à modifier la copie de travail pour la mettre dans le même état que le sommet d’une branche.
+
+La commande git checkout est utilisée dans divers contextes, qui rendent difficile à percevoir sa cohérence interne.
+
+La fonction première de cette commande est de modifier l’état de la copie de travail. Selon ses arguments, elle a des effets supplémentaires :
+
+un branche : changer la branche courante
+une révision : passer en mode detached HEAD
 
 
 
