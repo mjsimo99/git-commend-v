@@ -14,7 +14,7 @@ Dans les interfaces graphiques :
 
 elle apparaît chaque fois qu’elle est nécessaire
 
-(par exemple, dans la boite de dialogue Switch/Checkout... vue précédemment).
+(par exemple, dans la boite de dialogue Switch/Checkout... vue précédemment).  
 
 En ligne de commande :
 
