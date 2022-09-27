@@ -1,0 +1,15 @@
+* Ajouter un fichier dans l’index  :  $ git add <filename>
+
+* Retirer un fichier de l’index    :  $ git reset <filename>
+
+* Pour voir l’état des modifications en cours : $ git status    # résumé
+								$ git diff      # détail des changements
+
+* Pour commiter les modifications indexées : $ git commit    #ou
+							   $ git commit -m "message de commit"
+
+* 
+
+
+
+
